@@ -1,9 +1,30 @@
 <script >
+import Header from './components/Header.vue'
 
+
+export default{
+  name: "App",
+  components:{
+    Header
+},
+data(){
+    return{
+      
+     
+    }
+  },
+  mounted(){
+    
+  },
+  methods: {
+   
+  }
+}  
 </script>
 
 <template>
-  <h1>Ciao mondo</h1>
+  <Header></Header>
+  <RouterView></RouterView>
 </template>
 
 <style lang="scss">
