@@ -33,11 +33,6 @@ export default{
             Registrati subito!
           </a>
         </li>
-        <!-- <li class="nav-item">
-          <router-link :to="{name: 'contatti'}" class="nav-link" >
-            Contatti
-          </router-link>
-        </li> -->
       </ul>
     </div>
   </div>
