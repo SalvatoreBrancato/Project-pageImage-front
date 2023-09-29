@@ -71,7 +71,7 @@ data(){
         <div class="row">
             <div id="card" class="col-12 col-md-6 col-lg-4"  v-for="(elem, index) in this.result" :key="index">
                 <router-link :to="{name:'singleImage', params:{id:elem.id}}">
-                    <img :src="`http://127.0.0.1:8000/storage/${elem.image}`" v-if="elem.visibility === 1" :class="d-none" alt="">
+                    <img :src="`http://127.0.0.1:8000/storage/${elem.image}`">
                 </router-link>
             </div>
         </div>
